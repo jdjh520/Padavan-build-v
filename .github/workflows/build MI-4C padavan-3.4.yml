@@ -175,7 +175,7 @@ jobs:
         ##内网穿透服务##
         echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config #ALDRIVER  ~3m
         echo "CONFIG_FIRMWARE_INCLUDE_MSD_LITE=n" >> .config #MSD_LITE
-        echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=y" >> .config #IPERF3
+        echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config #IPERF3
         echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=y" >> .config #NAPT66
         #########################################################################################
         # 自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
